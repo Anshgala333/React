@@ -1,0 +1,41 @@
+.plus{
+    margin-right: 0 ;
+    float: right;
+}
+
+
+    
+.lefticons1 {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content:  center;
+    align-items: center;
+    width: 100%;
+    min-width: 200px;
+    
+}
+
+.lefticons li {
+    width: 100%;
+    padding: 0px 10px ;
+}
+.lefticons1 li {
+    width: 100%;
+    padding: 0px 10px ;
+}
+
+.lefticons1 li svg:first-of-type{
+    margin-top: -2px !important;
+}
+.tittle{
+    margin-left: 20px !important;
+    color: #6E6E6E;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 129.257%; /* 18.096px */
+}

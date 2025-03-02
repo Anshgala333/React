@@ -1,0 +1,47 @@
+.input1 {
+    width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 4px 12px;
+  padding-left: 40px;
+  outline: none;
+}
+
+
+.i1{
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    align-self: center;
+    margin-left: 10px !important;
+    justify-content: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.btn2{
+    margin-left: auto !important;
+    margin-right: 5px !important;
+}
+.searchIcon{
+    position: absolute;
+  top: 2px;
+  left: 10px;
+}
+
+.blue{
+  border-radius: 4px;
+border: 1px solid #2800FC;
+background: #F1F5F7;
+display: flex;
+width: 32px;
+height: 32px;
+padding: 6px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}

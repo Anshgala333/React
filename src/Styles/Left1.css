@@ -1,0 +1,51 @@
+
+
+.lefticons {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-content:  center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.left-parent {
+    justify-content: center;
+    display: flex;
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    align-content: center;
+}
+
+li {
+    list-style: none;
+    align-self: center;
+   
+    margin: auto;
+}
+.lefticons li {
+    margin-top: 3px !important;
+    margin-left: 5px !important;
+    width: 95% !important;
+    white-space: nowrap !important;
+    flex-wrap: nowrap;
+    min-width: 200px;
+    margin-left: 0;
+    align-self: flex-start;
+
+}
+
+
+td{
+    color: #3E4754 !important;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
