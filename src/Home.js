@@ -19,7 +19,7 @@ function Home() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("http://localhost:9000/getData", {
+                const response = await fetch("https://r84kgxk58f.execute-api.us-east-1.amazonaws.com/hello", {
                     method: "GET",
                 });
 
